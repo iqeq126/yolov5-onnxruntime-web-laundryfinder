@@ -24,7 +24,7 @@ export const renderBoxes = (canvas, boxes) => {
     const [x1, y1, width, height] = box.bounding;
     if(!!klass){
       const sendValueToParent = () => {
-        const targetOrigin = 'https://172.19.87.96:3000';
+        const targetOrigin = 'https://:3000';
         const value = klass;
     
         window.parent.postMessage(value, targetOrigin);
