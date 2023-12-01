@@ -18,7 +18,7 @@ Serving YOLOv5 in browser using onnxruntime-web with `wasm` backend.
 ## Setup
 
 ```bash
-git clone https://github.com/Hyuto/yolov5-onnxruntime-web.git
+git clone https://github.com/iqeq126/yolov5-onnxruntime-web-laundryfinder.git
 cd yolov5-onnxruntime-web
 yarn install # Install dependencies
 ```
